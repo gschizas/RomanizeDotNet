@@ -54,12 +54,12 @@ namespace RomanizeCS
                         if (digraphYpsilonBeta.Contains(thirdLetter))
                         {
                             newLetter += "v";
-                            cursor += 1;
+                            cursor++;
                         }
                         else if (digraphYpsilonPhi.Contains(thirdLetter))
                         {
                             newLetter += "f";
-                            cursor += 1;
+                            cursor++;
                         }
                     }
                 }
@@ -68,17 +68,17 @@ namespace RomanizeCS
                     if (nextLetter == "γ")
                     {
                         newLetter = "ng";
-                        cursor += 1;
+                        cursor++;
                     }
                     else if (nextLetter == "ξ")
                     {
                         newLetter = "nx";
-                        cursor += 1;
+                        cursor++;
                     }
                     else if (nextLetter == "χ")
                     {
                         newLetter = "nch";
-                        cursor += 1;
+                        cursor++;
                     }
                     else
                     {
@@ -92,12 +92,12 @@ namespace RomanizeCS
                         if (string.IsNullOrEmpty(previousLetter.Trim()) | string.IsNullOrEmpty(thirdLetter.Trim()))
                         {
                             newLetter = "b";
-                            cursor += 1;
+                            cursor++;
                         }
                         else
                         {
                             newLetter = "mp";
-                            cursor += 1;
+                            cursor++;
                         }
                     }
                     else
@@ -111,7 +111,7 @@ namespace RomanizeCS
                     if (nextLetter == "υ" | nextLetter == "ύ")
                     {
                         newLetter += "u";
-                        cursor += 1;
+                        cursor++;
                     }
                 }
                 else
