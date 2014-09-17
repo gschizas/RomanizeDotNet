@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "RomanizeVB", "RomanizeVB\RomanizeVB.vbproj", "{2891B264-2E6D-4C0A-B1E8-B0370FECE478}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "UnitTest", "UnitTest\UnitTest.vbproj", "{D69A005D-AD82-44BF-85D3-8DA6FB328A64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanizeCS", "RomanizeCS\RomanizeCS.csproj", "{A862B008-884B-42AE-818D-3B4C18AEF535}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2891B264-2E6D-4C0A-B1E8-B0370FECE478}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2891B264-2E6D-4C0A-B1E8-B0370FECE478}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2891B264-2E6D-4C0A-B1E8-B0370FECE478}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2891B264-2E6D-4C0A-B1E8-B0370FECE478}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D69A005D-AD82-44BF-85D3-8DA6FB328A64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D69A005D-AD82-44BF-85D3-8DA6FB328A64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D69A005D-AD82-44BF-85D3-8DA6FB328A64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D69A005D-AD82-44BF-85D3-8DA6FB328A64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A862B008-884B-42AE-818D-3B4C18AEF535}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A862B008-884B-42AE-818D-3B4C18AEF535}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A862B008-884B-42AE-818D-3B4C18AEF535}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A862B008-884B-42AE-818D-3B4C18AEF535}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
